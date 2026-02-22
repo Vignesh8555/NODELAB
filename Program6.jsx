@@ -16,11 +16,7 @@ function Calculator() {
        <div 
        style={{height:"300px",
        width:"200px",
-       border:"9px solid ",
-       marginLeft:"260px",
-       marginTop:"20px",
-       backgroundColor:"lemonchiffon",
-       textAlign:"left"}}>
+       }}>
      <h1>result:</h1>
       <p><strong>Addition:</strong>{a+b}</p>
       <p><strong>Subtrction:</strong>{a-b}</p>
