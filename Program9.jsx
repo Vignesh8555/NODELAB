@@ -17,10 +17,11 @@ function Theme() {
       <p>Click the button to switch between Light and Dark Mode</p>
       <button onClick={toggleTheme}>Switch to {theme==="light"?"light":"dark"} Mode</button>
       <div style={{ marginTop:"20px"}}>
-    <p>Text color also changes according to the selected theme.</p>
+    
       </div>
     </div>
   );
 }
 
 export default Theme
+
