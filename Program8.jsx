@@ -11,9 +11,9 @@ function Tabcomponent() {
             <button onClick={()=>setActiveTab("Contact")}>Contact</button>
         </div>
       <div style={Styles.ContentBox}>
-        {activeTab==="Home"&& <p>Vignesh gets bored to code.</p>}
-        {activeTab==="About"&& <p>Krithik looks like a bear.</p>}
-        {activeTab==="Contact"&& <p>Vel prasath is always into games.</p>}
+        {activeTab==="Home"&& <p>welcome to java</p>}
+        {activeTab==="About"&& <p>website </p>}
+        {activeTab==="Contact"&& <p>contact with number</p>}
       </div>
     </div>
   )
@@ -34,7 +34,6 @@ const Styles={
         height:"100px",
         width:"300px",
         marginLeft:"300px",
-        background:"lightblue",
         paddingTop:"10px",
     },
 }
